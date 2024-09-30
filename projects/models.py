@@ -8,3 +8,4 @@ class Project(models.Model):
     description = models.TextField()
     technology = models.CharField(max_length=100)
     created_at = models.DateTimeField(auto_now_add=True)  
+    # adding something to test branch
